@@ -1,7 +1,7 @@
-# Reto1 (Pablo Mena)
+# Bootcamp Reto1 (Pablo Mena)
 Retos preparados para el bootcamp purple #bootcamp
 
-Escenario:
+# Escenario:
 Se requiere crear una API REST que calcule el dígito verificador del DNI peruano. Utilizar para ello Java Spring Boot y aplicar conocimientos de arquitectura de software, programación funcional y reactiva (deseable).
 
 Tomaremos como ejemplo el DNI 17801146.
@@ -13,7 +13,7 @@ Tomaremos como ejemplo el DNI 17801146.
  - Al resultado anterior le sumamos 1, es decir 4 + 1 = 5 lo que significa que vamos a buscar la 5ta posición en la serie NUMERICA (por defecto) 6, 7, 8, 9, 0, 1, 1, 2, 3, 4, 5 ó la 5ta posición en la serie ALFABÉTICA (por defecto) K, A, B, C, D, E, F, G, H, I, J.
  - El valor obtenido es el dígito verificador.
 
-Evidencias.
+# Evidencias.
 
 1.- Ejecutando el api
 ![image](https://user-images.githubusercontent.com/265018/154599304-0063fa70-e9e3-4f67-ba25-f50d56e28bf7.png)
